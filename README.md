@@ -5,10 +5,10 @@ A simple JavaScript-based Recipe Finder app that uses [TheMealDB API](https://ww
 ---
 
 ## ✨ Features
-- 🔍 Search recipes by name
-- 🎲 Generate a random recipe
-- 📸 Display recipe images
-- 📖 View detailed instructions and ingredients
+- Search recipes by name
+- Generate a random recipe
+- Display recipe images
+- View detailed instructions and ingredients
 
 ---
 
@@ -23,8 +23,8 @@ Step 1: Open the project folder
 cd recipe-finder
 
 Step 2: Run the app
-Option A: Double-click index.html to open in your default browser
-Option B: Use VS Code Live Server extension for auto-refresh
+<br>Option A: Double-click index.html to open in your default browser
+<br>Option B: Use VS Code Live Server extension for auto-refresh
 
 Step 3: Interact with the app
 - Enter a recipe name in the search bar to find matching meals
