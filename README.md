@@ -6,6 +6,7 @@ A simple JavaScript-based Recipe Finder app that uses [TheMealDB API](https://ww
 
 ## ✨ Features
 - Search recipes by name
+- Search recipes by first letter
 - Generate a random recipe
 - Display recipe images
 - View detailed instructions and ingredients
