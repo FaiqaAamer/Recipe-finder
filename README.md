@@ -17,32 +17,23 @@ A simple JavaScript-based Recipe Finder app that uses [TheMealDB API](https://ww
    ```bash
    git clone https://github.com/your-username/recipe-finder.git
 
-# 🖥️ Usage
+### 🖥️ Usage
 
-# Step 1: Open the project folder
+Step 1: Open the project folder
 cd recipe-finder
 
-# Step 2: Run the app
-# Option A: Double-click index.html to open in your default browser
-# Option B: Use VS Code Live Server extension for auto-refresh
+Step 2: Run the app
+Option A: Double-click index.html to open in your default browser
+Option B: Use VS Code Live Server extension for auto-refresh
 
-# Step 3: Interact with the app
-# - Enter a recipe name in the search bar to find matching meals
-# - Click "Random Recipe" to discover something new
-# - Select a recipe to view its image, ingredients, and cooking steps
-
----
-
-## Project Structure
-Recipe Finder/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
+Step 3: Interact with the app
+- Enter a recipe name in the search bar to find matching meals
+- Click "Random Recipe" to discover something new
+- Select a recipe to view its image, ingredients, and cooking steps
 
 ---
 
-# Planned improvements
+## Planned improvements
 - Add category-based filtering (vegetarian, dessert, etc.)
 - Save favorite recipes locally
 - Responsive design improvements with Bootstrap
