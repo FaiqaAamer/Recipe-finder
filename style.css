@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url(Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  backdrop-filter: blur(2px);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; 
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; 
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* ------------------------------------------------------------------- */
+h2{
+    padding-bottom: 0.7rem;
+    font-size: 5rem;
+    color: white;
+}
+
+p{
+    padding-bottom: 2rem;
+    font-size: 1.15rem;
+    color: white;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+#b1, #b2, #b3, #b4{
+    padding: 1rem;
+    width: 20rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.15rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    cursor: pointer;
+}
+
+#b1:hover, #b2:hover, #b3:hover, #b4:hover {
+  background-color: #5b3f1e;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+#searchBox{
+    padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+    width: 20rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+#searchBtn{
+    background-color: #776222;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    color: white;
+}
+
+#searchBtn:hover {
+  background-color: #5b3f1e;
+}
+/* ------------------------------------------------------------------------------------- */
+.card {
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 1350px;
+  min-height: 23vh;
+  background-color: #5b3f1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.meal {
+  background-color: rgba(139, 137, 137, 0.365);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  min-height: 300px;
+}
+
+.meal:hover {
+  transform: translateY(-5px);
+}
+
+.meal img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.viewBtn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #776222;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.viewBtn:hover {
+  background-color: #5b3f1e;
+}
+/* ------------------------------------------------------------ */
+.card1 {
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 1350px;
+  min-height: 43vh;
+  background-color: #5b3f1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.meal1 {
+  background-color: rgba(139, 137, 137, 0.365);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.meal1:hover {
+  transform: translateY(-5px);
+}
+
+.meal1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+/* ------------------------------------------------------------ */
+
+.card2 {
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 3rem;
+  max-width: 1350px;
+  min-height: 33vh;
+  background-color: #5b3f1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .card {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #searchBox {
+    width: 70%; /* shrink input on mobile */
+  }
+  #searchBtn {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 3.5rem; 
+  }
+  p {
+    font-size: 1rem;
+  }
+  #searchBox {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+  #searchBox {
+    width: 15rem;
+  }
+  #searchBtn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .input {
+    flex-direction: column; 
+    gap: 0.5rem;
+  }
+  #searchBox {
+    width: 100%;
+  }
+  #searchBtn {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+  .card {
+    grid-template-columns: 1fr;
+}
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
