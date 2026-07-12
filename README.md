@@ -26,17 +26,17 @@ A JavaScript-based Recipe Finder web app that uses [TheMealDB API](https://www.t
 ## Project Structure
 
 ```
-├── index.html       # Landing page / entry point
-├── search.html       # Search by name page
+├── index.html       # Landing page 
+├── search.html     
 ├── search.js          # Search by name logic
-├── random.html       # Random recipe page
+├── random.html     
 ├── random.js          # Random recipe logic
-├── display.html      # Recipe details page
+├── display.html     
 ├── display.js         # Recipe details logic
-├── single.html       # Single recipe view page
+├── single.html      
 ├── single.js          # Single recipe view logic
 ├── style.css          # Global styles
-├── Background.jpg     # Background image
+├── Background.jpg     
 └── README.md
 ```
 
@@ -46,7 +46,7 @@ A JavaScript-based Recipe Finder web app that uses [TheMealDB API](https://www.t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/recipe-finder.git
+   git clone https://github.com/FaiqaAamer/recipe-finder.git
    ```
 
 2. Navigate into the project folder:
